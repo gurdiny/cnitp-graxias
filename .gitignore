@@ -1,0 +1,17 @@
+# Paquete para subida manual a Cloudflare Pages (se genera desde dist/)
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Secretos y locales
+.env
+.env.*
+.dev.vars
+*.key
+*.pem
+.wrangler/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
